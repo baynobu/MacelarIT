@@ -59,8 +59,8 @@ const ProjectsSection = () => {
                           src={project.video}
                           title={project.name}
                           allowFullScreen
-                          width={465}
-                          height={250}
+                          width={464}
+                          height={238}
                           className="rounded-xl shadow-xl hover:opacity-70"
                         />
                       </div>
