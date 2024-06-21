@@ -53,28 +53,28 @@ const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className="md:w-1/2">
-                    {project.video ? (
-                      <div className="aspect-w-16 aspect-h-9">
-                        <iframe
-                          src={project.video}
-                          title={project.name}
-                          allowFullScreen
-                          width={464}
-                          height={238}
-                          className="rounded-xl shadow-xl hover:opacity-70"
-                        />
-                      </div>
-                    ) : (
-                      <Link href={project.link}>
+                  {project.video ? (
+                    <div className="relative w-full pb-9/16">
+                      <iframe
+                        src={project.video}
+                        title={project.name}
+                        allowFullScreen
+                        className="absolute top-0 left-0 w-full h-full rounded-xl shadow-xl hover:opacity-70"
+                      />
+                    </div>
+                  ) : (
+                    <Link href={project.link}>
+                      <div className="relative w-full pb-9/16">
                         <Image
                           src={project.image}
-                          alt=""
-                          width={1000}
-                          height={1000}
-                          className="rounded-xl shadow-xl hover:opacity-70"
+                          alt={project.name}
+                          layout="fill"
+                          className="object-cover rounded-xl shadow-xl hover:opacity-70"
                         />
-                      </Link>
-                    )}
+                      </div>
+                    </Link>
+                  )}
+
                   </div>
 
                   <div className="mt-8 md:w-1/2">
