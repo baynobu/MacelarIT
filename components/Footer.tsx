@@ -21,8 +21,8 @@ const Footer = () => {
           </a>
           
 
-          {/* <a
-            href="mailto:@gmail.com"
+          <a
+            href="mailto:macelarit@gmail.com"
             rel="noreferrer"
             target="_blank"
           >
@@ -30,7 +30,7 @@ const Footer = () => {
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
-          </a> */}
+          </a>
         </div>
       </div>
     </footer>
