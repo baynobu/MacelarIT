@@ -10,30 +10,30 @@ const ProjectsSection = () => {
       description: "",
       image: "/",
       video: "https://www.youtube.com/embed/2kyABOgFhg4",
-      github: "https://github.com/hqasmei/thankful-thoughts",
-      link: "/MalangYoungInnovatorsAward-Certificate.jpg",
+      github: "",
+      link: "",
     },
     {
       name: "Data Insights: Patterns, Predictions, and Decisions",
       description: "",
       image: "/data1.png",
       github: "https://colab.research.google.com/",
-      link: "/AI_SMK NEGERI 12_ABDUL RAHMAN HANIF DARMAWAN.jpg",
+      link: "",
     },
     {
       name: "2D Pixel Platformer",
       description:
         "",
       image: "/allienparkour.png",
-      github: "https://github.com/hqasmei/katorfamilyphotos",
-      link: "https://drive.google.com/drive/folders/1DCwJKesXjl_y5Y4iYyaIRBns_FTWnLPm?usp=drive_link",
+      github: "",
+      link: "",
     },
     {
       name: "Personal Website",
       description:
         "",
       image: "/personal_website.png",
-      github: "https://github.com/hqasmei/katorfamilyphotos",
+      github: "",
       link: "https://robclintonkardinal.com/",
     },
   ];
@@ -108,9 +108,9 @@ const ProjectsSection = () => {
                         Pembuatan Personal Website Rob Clinton Kardinal, dan terdapat beberapa fitur utama yaitu Galeri Foto, Blog Terintegrasi, dan serta Panel Admin.{" "}
                         <br />
                         <a href={project.link} className="text-teal-500 hover:underline" target="blank">
-                          View Live Website!
+                          View Live Website
                         </a>
-                        .
+                        !.
                       </p>
                     )}
 
