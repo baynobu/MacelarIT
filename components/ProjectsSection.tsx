@@ -36,6 +36,14 @@ const ProjectsSection = () => {
       github: "",
       link: "https://robclintonkardinal.com/",
     },
+    {
+      name: "Library Website",
+      description:
+        "",
+      image: "/librarywebsite.png",
+      github: "",
+      link: "",
+    },
   ];
 
   return (
@@ -111,6 +119,17 @@ const ProjectsSection = () => {
                           View Live Website
                         </a>
                         !.
+                      </p>
+                    )}
+
+                    {project.name === "Library Website" && (
+                      <p className="text-base leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
+                        Website Perpustakaan yang menggunakan arsitektur Mikroservis, dan terdapat fitur utama yaitu Autentikasi, Manajemen Akun, Profil, Manajemen Buku, Peminjaman Buku, 
+                        Manajemen Peminjaman Buku, serta terdapat Panel untuk Admin, Pustakawan, dan User, 
+                        dengan Frontend menggunakan ReactJS dan Backend Menggunakan NodeJS.{" "}
+                        
+                        <br />
+                        
                       </p>
                     )}
 
