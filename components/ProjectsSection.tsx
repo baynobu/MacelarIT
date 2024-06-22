@@ -44,6 +44,14 @@ const ProjectsSection = () => {
       github: "",
       link: "",
     },
+    {
+      name: "Singres",
+      description:
+        "",
+      image: "/singres.png",
+      github: "",
+      link: "https://singresstry.smkn12malang.sch.id",
+    },
   ];
 
   return (
@@ -130,6 +138,17 @@ const ProjectsSection = () => {
                         
                         <br />
                         
+                      </p>
+                    )}
+                    {project.name === "Singres" && (
+                      <p className="text-base leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
+                        Website Singres dibuat untuk menampilkan Katalog produk produk yang dijual oleh Singres.{" "}
+                        
+                        <br />
+                        <a href={project.link} className="text-teal-500 hover:underline" target="blank">
+                          View Live Website
+                        </a>
+                        !.
                       </p>
                     )}
 
